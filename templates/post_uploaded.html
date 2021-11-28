@@ -8,13 +8,13 @@
 <body>
 <main>
 
-    <a href="index.html" class="link">Назад</a>
+    <a href="/" class="link">Назад</a>
 
     <h1>Пост добавлен! </h1>
 
     <div class="post">
-        <img src="https://place-hold.it/640" width="100%" alt="">
-        <p>Это подпись к посту, которая может содержать <a href="хештеги">#хештеги</a></p>
+        <img src="{{ post_data.pic }}" width="100%" alt="">
+        <p>{{ post_data.content }}</p>
     </div>
 
     <hr>

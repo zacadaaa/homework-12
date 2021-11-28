@@ -8,14 +8,14 @@
 <body>
 <main>
 
-    <a href="index.html" class="link">Назад</a>
+    <a href="/" class="link">Назад</a>
 
     <h1>Добавить пост</h1>
 
-    <form action="post_uploaded.html">
-        <p>По тегу</p>
-        <div><textarea name="" rows="5" width="100%"></textarea></div>
-        <div><input type="file"></div>
+    <form action="/post" method="POST" enctype="multipart/form-data">
+<!--        <p>По тегу</p>-->
+        <div><textarea name="content" rows="5" width="100%"></textarea></div>
+        <div><input type="file" name="picture"></div>
         <div><input type="submit" value="Добавить" class="button"></div>
     </form>
 
