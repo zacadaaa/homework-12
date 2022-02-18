@@ -22,6 +22,12 @@ select {
     font-size: 18px;
 }
 
+input[type=text] {
+    padding: 8px;
+    position: relative;
+    top: -2px;
+}
+
 textarea {
     width: 100%;
     margin-bottom: 16px;

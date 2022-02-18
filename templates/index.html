@@ -11,13 +11,9 @@
 
     <h1>Поиск постов</h1>
 
-    <form action="post_by_tag.html">
-        <p>По тегу</p>
-        <select name="tag" >
-                <option value="еда">еда</option>
-                <option value="природа">природа</option>
-                <option value="вечеринка">вечеринка</option>
-        </select>
+    <form action="post_by_tag.html" method="get">
+        <p>По вхождению слова</p>
+        <input type="text" name="s">
         <input type="submit" value="Найти" class="button">
     </form>
 

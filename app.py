@@ -12,13 +12,18 @@ def page_index():
     pass
 
 
-@app.route("/tag")
+@app.route("/list")
 def page_tag():
     pass
 
 
 @app.route("/post", methods=["GET", "POST"])
-def page_post_create():
+def page_post_form():
+    pass
+
+
+@app.route("/post", methods=["POST"])
+def page_post_upload():
     pass
 
 
